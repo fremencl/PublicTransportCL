@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Mejorando Transporte Publico de Santiago</title>
+  <style>
+    body {
+      background-color: #e6f1f7;
+    }
+
+    .container {
+      margin: 0 auto;
+      max-width: 800px;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    h1,
+    h2,
+    h3 {
+      color: #0080ff;
+    }
+
+    p,
+    ul {
+      color: #333;
+      font-size: 18px;
+      line-height: 1.5;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    button {
+      background-color: #0080ff;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0059b3;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1> Mejorando Transporte Publico de Santiago </h1>
+    <img src="https://i.postimg.cc/RFJqGH7J/8493.jpg" alt="Nuevo Transporte Publico">
+    <h2>Ventajas del Proyecto</h2>
+    <ul>
+      <li>Reducir congestión vehicular</li>
+      <li>Disminución de la contaminación ambiental</li>
+      <li>Aumento del acceso al transporte publico</li>
+      <li>Reducción tiempos de viaje</li>
+      <li>Equipo 1 Project Impact</li>
+    </ul>
+    <button onclick="sendEmail()">Contact us</button>
+  </div>
+  <script>
+    function sendEmail() {
+      window.location.href = 'mailto:cristian.vargasgomez@gmail.com';
+    }
+  </script>
+</body>
+
+</html>
